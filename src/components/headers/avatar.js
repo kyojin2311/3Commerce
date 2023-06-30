@@ -12,7 +12,7 @@ export default function Avatar() {
           aria-expanded="false"
           data-dropdown-toggle="dropdown-2"
         >
-          <span className="sr-only">Open user menu</span>
+          {/* <span className="sr-only">Open user menu</span> */}
           <img className="w-8 h-8 rounded-full" src={ava} alt="user photo" />
         </button>
       </div>
