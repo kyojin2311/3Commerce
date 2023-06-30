@@ -5,10 +5,10 @@ import Avatar from "./avatar";
 import Helpers from "./helpers";
 import ShopBasket from "./shopBasket";
 export default function MainHeader(props) {
-  const [toggle, setToggle] = useState(false);
-  const toggleHandler = () => {
-    setToggle(!toggle);
-  };
+  // const [toggle, setToggle] = useState(false);
+  // const toggleHandler = () => {
+  //   setToggle(!toggle);
+  // };
   return (
     <>
       <nav className="fixed z-30 w-full bg-white border-b border-gray-200 dark:border-gray-700 dark:bg-gray-800 ">

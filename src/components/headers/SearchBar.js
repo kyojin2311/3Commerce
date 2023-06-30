@@ -2,7 +2,7 @@ export default function SearchBar() {
   return (
     <>
       <form action="#" method="GET" className="lg:block lg:pl-3.5">
-        <label for="topbar-search" className="sr-only">
+        <label htmlFor="topbar-search" className="sr-only">
           Search
         </label>
         <div className="relative mt-1 lg:w-96">
